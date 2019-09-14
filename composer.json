@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Foo\\": "somewhere/completely/src"
+        }
+    },
+	"config": {
+		"vendor-dir": "somewhere/completely/different"
+	},
+	"require-dev": {
+		"vimeo/psalm": "^3.5"
+	}
+}
